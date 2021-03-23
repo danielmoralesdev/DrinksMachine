@@ -1,0 +1,157 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="panel panel-default">
+    <div class="panel-heading">Coins Information</div>
+    <div class="panel-body">
+        <div class="form-horizontal">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="panel">
+                        <div class="panel-heading">Penny</div>
+                        <div class="panel-body">
+                            <div class="form-horizontal">
+                                
+                                <div class="form-group" style="width: 100%;">
+                                    <input type="text" id="txtPenny" class="input-full formatNumber" />
+                                    <input type="hidden" id="hdnPennyValue" />
+                                </div>
+                            </div>
+                        </div>
+                </div></div>
+                <div class="col-md-3">
+                <div class="panel">
+                    <div class="panel-heading">Nickel</div>
+                    <div class="panel-body">
+                        <div class="form-horizontal">
+                            
+                            <div class="form-group" style="width: 100%;">
+                                <input type="text" id="txtNickel" class="input-full formatNumber" />
+                                <input type="hidden" id="hdnNickelValue" />
+                            </div>
+                        </div>
+                    </div>
+                </div></div>
+                <div class="col-md-3">
+                <div class="panel">
+                    <div class="panel-heading">Dime</div>
+                    <div class="panel-body">
+                        <div class="form-horizontal">
+                            
+                            <div class="form-group" style="width: 100%;">
+                                <input type="text" id="txtDime" class="input-full formatNumber" />
+                                <input type="hidden" id="hdnDimeValue" />
+                            </div>
+                        </div>
+                    </div>
+                </div></div>
+                <div class="col-md-3">
+                <div class="panel">
+                    <div class="panel-heading">Quarter</div>
+                    <div class="panel-body">
+                        <div class="form-horizontal">
+                            
+                            <div class="form-group" style="width: 100%;">
+                                <input type="text" id="txtQuarter" class="input-full formatNumber" />
+                                <input type="hidden" id="hdnQuarterValue" />
+                            </div>
+                        </div>
+                    </div>
+                </div></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group" style="width: 100%;">
+                        <div class="row">
+                            <h3 class="col-md-6 control-label label-right">Total Payment</h3>
+                            <h4 class="col-md-6 control-label" id="lblTotalPayment">$ 0</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">Products Information</div>
+    <div class="panel-body">
+        <div class="form-horizontal">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group" style="width: 100%;">
+                                <label class="col-md-12 control-label label-right">Coke</label>
+                                <label class="col-md-12 control-label label-right" id="lblCokeAvailable">1 drink</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" id="txtCokeQty" class="input-full formatNumber" />
+                            <input type="hidden" id="hdnCokeCost" />
+                            <input type="hidden" id="hdnCokesAvailable" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group" style="width: 100%;">
+                                <label class="col-md-12 control-label label-right">Pepsi</label>
+                                <label class="col-md-12 control-label label-right" id="lblPepsiAvailable">1 drink</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" id="txtPepsiQty" class="input-full formatNumber" />
+                            <input type="hidden" id="hdnPepsiCost" />
+                            <input type="hidden" id="hdnPepsisAvailable" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group" style="width: 100%;">
+                                <label class="col-md-12 control-label label-right">Soda</label>
+                                <label class="col-md-12 control-label label-right" id="lblSodaAvailable">1 drink</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" id="txtSodaQty" class="input-full formatNumber" />
+                            <input type="hidden" id="hdnSodaCost" />
+                            <input type="hidden" id="hdnSodasAvailable" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group" style="width: 100%;">
+                        <div class="row">
+                            <h3 class="col-md-6 control-label label-right">Order Total</h3>
+                            <h4 class="col-md-6 control-label" id="lblTotal">$ 0</h4>
+                        </div>
+                    </div>
+
+                    <div class="clearfix form-actions">
+                        <div class="col-md-offset-3 col-md-9 text-center">
+                            <button id="btnGetDrinks" class="btn btn-success">
+                                <i class="fa fa-send"></i>
+                                Get Drinks
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/DrinksMachine.mod.js"></script>
+<script src="~/js/DrinksMachine.js"></script>

@@ -1,0 +1,17 @@
+f:\Proyectos\DrinksMachine\DrinksMachineDataAccess\bin\Debug\net5.0\DrinksMachineDataAccess.deps.json
+f:\Proyectos\DrinksMachine\DrinksMachineDataAccess\bin\Debug\net5.0\DrinksMachineDataAccess.dll
+f:\Proyectos\DrinksMachine\DrinksMachineDataAccess\bin\Debug\net5.0\ref\DrinksMachineDataAccess.dll
+f:\Proyectos\DrinksMachine\DrinksMachineDataAccess\bin\Debug\net5.0\DrinksMachineDataAccess.pdb
+f:\Proyectos\DrinksMachine\DrinksMachineDataAccess\bin\Debug\net5.0\DataBase.dll
+f:\Proyectos\DrinksMachine\DrinksMachineDataAccess\bin\Debug\net5.0\DrinksMachineModels.dll
+f:\Proyectos\DrinksMachine\DrinksMachineDataAccess\bin\Debug\net5.0\DrinksMachineModels.pdb
+f:\Proyectos\DrinksMachine\DrinksMachineDataAccess\bin\Debug\net5.0\DataBase.pdb
+f:\Proyectos\DrinksMachine\DrinksMachineDataAccess\obj\Debug\net5.0\DrinksMachineDataAccess.csprojAssemblyReference.cache
+f:\Proyectos\DrinksMachine\DrinksMachineDataAccess\obj\Debug\net5.0\DrinksMachineDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+f:\Proyectos\DrinksMachine\DrinksMachineDataAccess\obj\Debug\net5.0\DrinksMachineDataAccess.AssemblyInfoInputs.cache
+f:\Proyectos\DrinksMachine\DrinksMachineDataAccess\obj\Debug\net5.0\DrinksMachineDataAccess.AssemblyInfo.cs
+f:\Proyectos\DrinksMachine\DrinksMachineDataAccess\obj\Debug\net5.0\DrinksMachineDataAccess.csproj.CoreCompileInputs.cache
+f:\Proyectos\DrinksMachine\DrinksMachineDataAccess\obj\Debug\net5.0\DrinksMachineDataAccess.csproj.CopyComplete
+f:\Proyectos\DrinksMachine\DrinksMachineDataAccess\obj\Debug\net5.0\DrinksMachineDataAccess.dll
+f:\Proyectos\DrinksMachine\DrinksMachineDataAccess\obj\Debug\net5.0\ref\DrinksMachineDataAccess.dll
+f:\Proyectos\DrinksMachine\DrinksMachineDataAccess\obj\Debug\net5.0\DrinksMachineDataAccess.pdb

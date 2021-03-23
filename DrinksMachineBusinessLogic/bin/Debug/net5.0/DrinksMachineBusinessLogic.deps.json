@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DrinksMachineBusinessLogic/1.0.0": {
+        "dependencies": {
+          "DrinksMachineDataAccess": "1.0.0",
+          "DrinksMachineModels": "1.0.0"
+        },
+        "runtime": {
+          "DrinksMachineBusinessLogic.dll": {}
+        }
+      },
+      "DataBase/1.0.0": {
+        "dependencies": {
+          "DrinksMachineModels": "1.0.0"
+        },
+        "runtime": {
+          "DataBase.dll": {}
+        }
+      },
+      "DrinksMachineDataAccess/1.0.0": {
+        "dependencies": {
+          "DataBase": "1.0.0",
+          "DrinksMachineModels": "1.0.0"
+        },
+        "runtime": {
+          "DrinksMachineDataAccess.dll": {}
+        }
+      },
+      "DrinksMachineModels/1.0.0": {
+        "runtime": {
+          "DrinksMachineModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DrinksMachineBusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataBase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DrinksMachineDataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DrinksMachineModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
